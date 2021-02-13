@@ -1,0 +1,233 @@
+.explode {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: "Jost-Book", monospace;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.explore-item {
+    position: relative;
+}
+
+.explore-item .explore-thumb {
+    position: relative;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    overflow: hidden;
+}
+
+.explore-item .explore-thumb:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.explore-item.pink .explore-thumb:before {
+    background: rgba(240, 98, 108, 0.8);
+}
+
+.explore-item.green .explore-thumb:before {
+    background: rgba(84, 147, 249, 0.8);
+}
+
+.explore-item.blue .explore-thumb:before {
+    background-color: rgba(62, 200, 235, 0.8);
+}
+
+.explore-item.brown .explore-thumb:before {
+    background: rgba(255, 180, 79, 0.79);
+}
+
+.explode-city-tours img{
+    height: 360px !important;
+}
+.explore-item img {
+    height: 182px;
+    object-fit: cover;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.slider_list img {
+    object-fit: cover;
+}
+
+.slider_list img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.explore-item .explore-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    z-index: 2;
+}
+
+.explore-item .explore-info a,
+.explore-item .explore-info span {
+    text-decoration: none;
+    color: white;
+}
+
+.explore-item .explore-info h3 {
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.slick-arrow {
+    background: white;
+    color: #5d5d5d;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.slick-prev.slick-arrow {
+    left: -20px !important;
+    right: auto !important;
+}
+
+.slick-next.slick-arrow {
+    left: auto !important;
+    right: -20px !important;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent !important;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+
+.slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 15px 0 0;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.explore .slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    height: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.slick-dots li button:before {
+    font-family: 'slick', serif;
+    font-size: 26px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: grey;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #23d3d3;
+}
+
+.offset-item.animate {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    -webkit-transform: none;
+    transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+}
+
+.title-border-bottom {
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.61;
+    position: relative;
+    margin-bottom: 55px;
+}
+.align-center {
+    text-align: center !important;
+}
+.title-border-bottom:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 1px;
+    width: 80px;
+    background-color: #23d3d3;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.featured-cities {
+    background-color: #000000;
+    padding: 60px 0;
+    color: white;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
